@@ -25,3 +25,12 @@ I don't fully know how this one works to be honest, try and change the initial c
 Located in `food_chain`.
 A Python implementation of the food chain differential equations system from Session 1 Exercise Sheet, Exercise 4.
 You can change the number of individuals, their starting conditions (in the list comprehension), and a few of the parameters. The exercise seems to want to change the value of `I`. I haven't done this but you can have fun with it. Rainbow colours and figure spacing are automatically taken care of.
+
+
+## On the limitations of Liebig's law of the minimum
+
+Based on the work by Jef Huisman and Franz J. Weissing available [here](https://www.math.utah.edu/~golden/resources/julie/Huisman_Nature_1999.pdf), I'm currently writing code to simulate coexisting species competing for resources such that the number of species exceeds the number of limiting resources, which seems to be only possible because the base state of the system does not converge to an equilibrium.
+
+Currently I only have a working version for Figure 1c, but I will try to generate the other figures using the information they provide, and might play around with some parameters, possibly in another file.
+
+
