@@ -1,2 +1,9 @@
-# CMB-Population-Biology
-Repo for CMB population biology course
+# CMB Population Biology
+
+Currently contains : 
+
+## Exercise on Budworms
+
+A Python implementation of the budworm differential system.
+
+
