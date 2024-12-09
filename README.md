@@ -2,6 +2,10 @@
 
 Currently contains : 
 
+# 1. Predation models
+
+All of the following exercises are located in `predation`.
+
 ## 1-1. Exercise on Budworms
 
 Located in `budworms`.
@@ -33,4 +37,8 @@ Based on the work by Jef Huisman and Franz J. Weissing available [here](https://
 
 Currently I only have a working version for Figure 1c, but I will try to generate the other figures using the information they provide, and might play around with some parameters, possibly in another file.
 
+
+# SIR Model
+
+An implementation of the SIR model was included in `sir_model`. You can run `sir_tests.py` to experiment with it, read my docs to see how to use the `SIR` class I wrote.
 
